@@ -1,29 +1,24 @@
 # cub3D
 
 ## Requirements
-### Requirements for Linux
+### Requirements for Linux:
+* make
+* gcc
+* package xorg 
+* package libxext-dev 
+* package libbsd-dev
 
-<ul>
-  <li> make </li>
-  <li> gcc </li>
-  <li> package xorg </li>
-  <li> package libxext-dev </li>
-  <li> package libbsd-dev </li>
-</ul>
-
-Requirements installation for Debian Distributions:
+➜ Requirements installation for Debian Distributions:
 ```
-➜ sudo apt-get install gcc make xorg libxext-dev libbsd-dev
+sudo apt-get install gcc make xorg libxext-dev libbsd-dev
 ```
-### Requirements for Mac
 
-<ul>
-  <li> Xquartz </li>
-</ul>
+### Requirements for Mac:
+* Xquartz
 
-Requirements installation:
+➜ Requirements installation:
 ```
-➜ Brew install Xquartz
-➜ reboot
-➜ xeyes
+Brew install Xquartz
+reboot
+xeyes
 ```
