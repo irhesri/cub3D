@@ -22,3 +22,8 @@ Brew install Xquartz
 reboot
 xeyes
 ```
+
+
+
+## Credits
+The mlx library used in the project was provided by [Minilibx](https://github.com/42Paris/minilibx-linux).
