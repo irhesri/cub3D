@@ -63,13 +63,22 @@ The map file should be a plain text file with the following elements:
 >* The colors of F and C written in R,G,B form.
 >* The texture image should have **.xpm** extension.
 
+### Example:
+
+```shell
+./cub3D ./maps/map2.cub
+```
+<div align="center">
+  
+![cub3D](./maps/readme/cub3D.gif)
+</div>
+
 ## Controls:
 * <kbd> ← </kbd> <kbd> → </kbd> : Allows you to rotate the view left and right
 * <kbd> w </kbd> <kbd> s </kbd> : Allows you to move forward and backward
 * <kbd> a </kbd> <kbd> d </kbd> : Allows you to move to the left and to the right
 * [Only in Mac] The mouse mouvements : Allows you to rotate the view left and right
 * <kbd> ESC </kbd> : Close the window
-
 
 ## Restrictions:
 * Only the next functions are allowed:
